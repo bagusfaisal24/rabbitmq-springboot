@@ -1,4 +1,4 @@
-package com.app.rabbitmq.publisher;
+package com.app.rabbitmq.queue;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

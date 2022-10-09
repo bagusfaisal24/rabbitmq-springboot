@@ -1,7 +1,7 @@
 package com.app.rabbitmq;
 
 import com.app.rabbitmq.domain.DtoProduct;
-import com.app.rabbitmq.publisher.ProductSender;
+import com.app.rabbitmq.queue.ProductSender;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
