@@ -19,9 +19,9 @@ public class ProductSender {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    public void send(String menuOrder) {
-        rabbitTemplate.convertAndSend(queue.getName(), menuOrder);
-        logger.info("Sending Message to the Queue : " + menuOrder);
+    public void send(String message) {
+        rabbitTemplate.convertAndSend(queue.getName(), message);
+        logger.info("Sending Message to the Queue : " + message);
     }
 
 }

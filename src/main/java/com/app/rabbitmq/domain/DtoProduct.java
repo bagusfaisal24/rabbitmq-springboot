@@ -11,9 +11,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class DtoProduct {
 
-    private String id;
-    private String name;
-    private Integer qty;
-    private Float price;
-    private String typeMessage;
+    private String productName;
+    private Double price;
 }
